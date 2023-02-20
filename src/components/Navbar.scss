@@ -37,6 +37,10 @@
             font-size: 1.2rem;
             font-weight: 600;
             color: #333;
+
+            &:hover {
+                text-decoration: underline;
+            }
         }
 
         li {

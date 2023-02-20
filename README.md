@@ -1,4 +1,6 @@
-# React Project
+# DeFi - Decentralized Finance
+
+This is React JS website with a cryptocurrency API and preprocessor SASS. Will be using the Coin Gecko API to access real time cryptocurrency information and data to display on this website.
 
 ## Available Scripts
 

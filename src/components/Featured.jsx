@@ -30,18 +30,18 @@ const Featured = () => {
             </div>
             <div>
                 <h4>{card.name}</h4>
-                <p>${card.current_price.toLocaleString()}</p>
+                <p>${card.current_price.toFixed(1)}</p>
             </div>
             <span>
                 {card.price_change_percentage_24h < 0 ? (
                     <span className='red'>
                         <BsArrowDown />
-                        {card.price_change_percentage_24h.toLocaleString()}%
+                        {card.price_change_percentage_24h.toFixed(1)}%
                     </span>
                 ) : (
                     <span className='green'>
                         <BsArrowUp />
-                        {card.price_change_percentage_24h.toLocaleString()}%
+                        {card.price_change_percentage_24h.toFixed(1)}%
                     </span>
                 )}
             </span>
