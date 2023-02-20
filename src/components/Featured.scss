@@ -1,7 +1,7 @@
 .featured {
     width: 100%;
     padding: 8rem 0;
-    background: #f4f4f4;
+    background: var(--background);
     clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 90%);
 
     .container {
@@ -10,6 +10,11 @@
         justify-content: center;
         align-items: center;
         padding: 1rem;
+
+        @media (max-width: 940px) {
+            grid-template-columns: 1fr;
+
+        }
     }
 
     .left {
@@ -24,6 +29,10 @@
 
         .btn {
             align-self: flex-start;
+
+            @media (max-width: 940px) {
+                align-self: center;
+            }
         }
     }
 
@@ -73,7 +82,7 @@
 }
 
 .green {
-    color: #8a2be2;
+    color: var(--primary);
 }
 
 .red {
