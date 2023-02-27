@@ -1,5 +1,5 @@
 import './Hero.scss';
-import Crypto from '../assests/hero-img.png';
+import Crypto from '../assets/hero-img.png';
 
 const Hero = () => {
     return (

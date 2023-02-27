@@ -1,5 +1,5 @@
 import './Signup.scss';
-import Crypto from '../assests/trade.png';
+import Crypto from '../assets/trade.png';
 
 const Signup = () => {
     return (
